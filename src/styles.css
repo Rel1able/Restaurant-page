@@ -1,0 +1,18 @@
+#content {
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.contacts-content {
+    background-color: red;
+}
+
+.menu-content {
+    background-color: green;
+}
