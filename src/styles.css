@@ -1,5 +1,22 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-janetrangdoan-1128678.jpg);
+    background-size: cover;
+}
+
+
 #content {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
 }
 
 .nav-bar {
@@ -7,12 +24,21 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
+    padding: 1em;
 }
 
-.contacts-content {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+
+}
+
+
+.container>div {
     background-color: red;
-}
+    width: 200px;
+    height: 150px;
 
-.menu-content {
-    background-color: green;
 }

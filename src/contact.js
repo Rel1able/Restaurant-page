@@ -6,6 +6,7 @@ function showContacts() {
     header.textContent = "Contact us";
 
     content.appendChild(header);
+
 }
 
 export default showContacts;
