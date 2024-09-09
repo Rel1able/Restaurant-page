@@ -4,7 +4,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url(pexels-frans-van-heerden-201846-670702.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -42,28 +42,44 @@ body {
 
 
 .container>div {
-    background-color: red;
-    width: 200px;
-    height: 150px;
+
+    width: 250px;
+    height: 180px;
+    font-weight: bold;
 
 }
 
 .load-content {
 
-    background-color: antiquewhite;
-    height: 30%;
-    width: 80%;
+    background-color: rgb(249, 203, 143);
+    height: 80%;
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: bold;
+    gap: 1em;
+    padding: 1em;
+
 }
 
 .menu-content {
-    background-color: antiquewhite;
-    height: 90%;
-    width: 60%;
+    background-color: rgb(249, 203, 143);
+    ;
+    height: 250;
+    width: 300;
+
 }
 
+
 .contacts-content {
-    background-color: antiquewhite;
-    width: 60%;
+    background-color: rgb(249, 203, 143);
+    ;
+    width: 50%;
+    height: 300px;
+    gap: 2em;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 1em;
+
 }
 
 
@@ -84,4 +100,13 @@ button:hover {
 img {
     width: 200px;
     height: 120px;
+}
+
+.schedule {
+    font-weight: bold;
+    border: 2px solid;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

@@ -10,7 +10,7 @@ function showMenu() {
     content.classList.add("menu-content");
 
     const header = document.createElement("h1");
-    header.textContent = "Here you can find our menu";
+    header.textContent = "Menu";
 
     content.appendChild(header);
 
