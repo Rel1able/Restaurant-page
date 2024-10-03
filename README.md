@@ -1,4 +1,7 @@
 # Restaurant-page
+
+My first website where I used Java Script bundler called Webpack
+
 Foto von Ida Rizkha: https://www.pexels.com/de-de/foto/salat-mit-ei-3008740/
 
 Foto von <a href="https://unsplash.com/de/@viniciusbenedit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vinicius Benedit</a> auf <a href="https://unsplash.com/de/fotos/sushi-auf-weissem-keramikteller--1GEAA8q3wk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
